@@ -1,9 +1,11 @@
 table {
     width: 100%;
+    height: 100%;
 }
 table, th, td {
    border: 0px solid black;
 }
+
 
 #element1 {
  letter-spacing: 8px;
@@ -19,14 +21,17 @@ table, th, td {
   margin-left:auto;
   float:right;
 } 
+#element3 {
+  display:block;
+} 
 
 #element2 > a:link {
-  color: #595959;
+  color: #D4D4D4;
   text-decoration: none;
 }
 
 #element2 > a:visited {
-  color: #595959;
+  color: #D4D4D4;
   text-decoration: none;                         
 }
 
@@ -35,7 +40,27 @@ table, th, td {
   text-decoration: none;
 }
 
-#element2 > a:active {
+#element3 > a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+#element3 > a:link {
+  color: #595959;
+  text-decoration: none;
+}
+
+#element3 > a:visited {
+  color: #595959;
+  text-decoration: none;                         
+}
+
+#element3 > a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+#element3 > a:active {
   color: blue;
   text-decoration: none;
 }
@@ -74,6 +99,12 @@ div:after {
 .aboutme {
   background: #F7F7F7;
   padding:10px;
+  line-height: 150%;
+}
+
+.blog {
+  padding-left:400px;
+  padding-right:400px;
   line-height: 150%;
 }
 
@@ -116,5 +147,6 @@ div:after {
     text-decoration: none;
     text-align: center;
 }
+
 
 
