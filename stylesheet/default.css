@@ -106,9 +106,10 @@ div:after {
   }
 
 
-section {
+* {
     font-family: 'Open Sans', sans-serif;
   }
+
 
 #test {
     font-family: 'Open Sans', sans-serif;
