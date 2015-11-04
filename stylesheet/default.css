@@ -1,3 +1,4 @@
+
 table {
     width: 100%;
 }
@@ -67,9 +68,22 @@ div:after {
     width: 100%;
 }
 
-
+.aboutmepadding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .aboutme {
   background: #F7F7F7;
+  padding:10px;
+}
+
+
+.portfolio {
+  background: #E0F1F9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .header-details {
@@ -77,7 +91,10 @@ div:after {
     border-bottom: 1px solid #595959;
     padding-top:30px;
     padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+
 
   section {
     font-family: 'Open Sans', sans-serif;
@@ -86,5 +103,6 @@ div:after {
 #test {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    text-align: center;
 }
 
