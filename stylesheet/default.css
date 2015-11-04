@@ -119,7 +119,15 @@ div:after {
 }
 
 .portfolio2 {
+  background: #fff7f8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
 
+.portfolio4 {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 50px;
