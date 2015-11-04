@@ -87,6 +87,15 @@ div:after {
   text-align: center;
 }
 
+.portfolio2 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
 .header-details {
     font-family: 'Open Sans', sans-serif;
     border-bottom: 1px solid #595959;
