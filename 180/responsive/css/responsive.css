@@ -1,0 +1,6 @@
+/* set the chosen breakpoints in our document 
+limiting the styles defined there to the screen
+limiting the scope to viewports which are 768px 
+or less in width*/
+
+@media screen and (max-width: 768px)

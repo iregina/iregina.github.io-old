@@ -1,0 +1,207 @@
+/* use ems to make scalable style sheets. 
+Named after the letter "M", 
+the em unit has a long-standing 
+tradition in typography where it has 
+been used to measure horizontal widths. 
+For example, the long dash often found 
+in American texts (--) is known as 
+"em-dash" since it historically has 
+had the same width as the letter "M".
+The term has therefore come to mean 
+the height of the font - not the 
+width of the letter "M". When used to 
+specify font sizes, the em unit 
+refers to the font size of the parent 
+element. So, in the example above, 
+the font size of the h1 element is set 
+to be two times the font size of the 
+body element. In order to find what 
+the font size of the h1 element will be, 
+we need to know the font size of body.
+By specifying the padding width in ems, 
+the width of the padding is relative to 
+the font size of the div element.*/
+
+#banner 
+{
+	width: 100%;
+	margin-top: 0.2em;
+	background: yellow; 
+}
+
+
+.newsletter-box
+{
+   background-color: #c32526;
+   margin-top: 0.2em;
+}
+
+#newsletter-box
+{
+   margin-top: 0.5em;
+   height: 1.8em;
+   padding: 0.3em;
+}
+
+/* avoid having the mobile-display shown in the 
+pc-desktop version. To achieve this result, we 
+simply set to the rule “display” the none parameter.*/
+
+#mobile-newsletter-box
+{
+   display: none;
+}
+
+/* transition - CSS3 rule applied to the white box*/
+
+#newsletter-email
+{
+   width: 12em;
+   -webkit-transition: all 1s;
+   -moz-transition: width 1s;
+   -o-transition: width 1s;
+   -ms-transition: width 1s;
+   transition: width 1s;
+}
+
+/* width applied when the newsletter box is 
+clicked: setting this to 17em, the box will appear 
+larger than usual.*/
+
+#newsletter-email:focus
+{
+   width: 17em;
+}
+
+/*  To delete the default bullet points of our menu list, 
+we set the parameter to none*/
+
+ul.menu-list {
+   list-style-type: none;
+   padding: 0;
+   margin: 1em 0em;
+   text-align: center;
+}
+
+/*To let the elements of the list appear one after another 
+horizontally, we change the display from the default 
+setting “block” to “inline” and also, in this case, 
+specify the margin parameters.*/
+
+li.menu-item
+{
+   display: inline;
+   margin: 0em 1.5em;
+}
+
+/*setting the rule “position: relative” on the menu links
+ and the parameters top and left on the active state of the 
+ same element.*/
+
+a.menu-item-link
+{
+   font-size: 1.3em;
+   text-decoration: none;
+   color: #c31f05;
+position: relative;
+
+}
+
+a.menu-item-link:hover
+{
+   color: #000000;
+}
+
+a.menu-item-link:active
+{
+   top: 0.1em;
+   left: 0.1em;
+}
+
+#menu-select
+{
+   display: none;
+}
+
+body
+{
+   max-width: 1024px;
+   margin: 0 auto;
+   background-color: #E3E3E3;
+   font-size: 1.2em;
+   line-height: 1.5em;
+}
+
+img
+{
+   border: 0em;
+}
+
+h1,
+h2,
+h3
+{
+   text-align: center;
+}
+
+/* preferred to create a class which “identifies” 
+these rules and applies them to the elements in the 
+HTML code rather than repeating the elements*/
+
+.float-left
+{
+   float: left;
+}
+
+.float-right
+{
+   float: right;
+}
+
+.clear-both
+{
+   clear: both;
+}
+
+.shadow
+{
+   -webkit-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+   -moz-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+   -o-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+   -ms-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+   box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
+   margin-right: 0.4em !important;
+}
+
+.long-box,
+.small-box
+{
+   background-color: #cdcdcd;
+   padding: 0em 0.3em;
+   margin: 0em;
+   margin-bottom: 1em;
+}
+
+.small-box
+{
+   width: 47%;
+}
+
+p
+{
+   margin-top: 0;
+   margin-bottom: 0.5em;
+}
+
+#main-footer
+{
+   background-color: #c32526;
+   text-align: center;
+}
+
+.social-bar a
+{
+   text-decoration: none;
+   margin-right: 3em;
+}
+

@@ -1,0 +1,118 @@
+<!-- declare the type document -->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta information help the web browser to interpret the content, defines the formatting of the page within it’s header info so that all the browsers know exactly how to read and interpret the content --> 
+
+<!-- first meta-tag: defines what character coding is used in the page, UTF-8 is a variable width Unicode format compatible with ASCII or plain text for the basic alphanumeric characters, it can handle over a million unique characters-->
+
+	<meta charset="UTF-8">
+
+<!-- viewport is the user's visible area of a web page, meta viewpoint element gives the browser instructions how to control the page's dimensions and scaling; width = device-width sets the width of the page to follow the screen-width of the device; initial scale =1.0 sets the initial zoom level when the page is first loaded by the browser --> 
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>My Basic Responsive Site</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+</html>
+</head>
+
+<body>
+
+<!-- header begins here -->
+
+<header>
+<div id="banner" role="banner">
+	<h1>Banner</h1>
+</div>
+<div class="newsletter-box" id="newsletter-box">
+
+	<form name="newsletter-form" action="#" method="post">
+
+		<label for="newsletter=-email">Newsletter:</label>
+
+		<input type="email" id="newsletter=email" class="newsletter-email" name="email" required="required" placeholder="Your email"/>
+
+		<input type="submit" name="submit" value="submit" />
+	</form>
+</div>
+</header>
+
+<!-- nav menu begins here-->
+
+<nav class="menu">
+	<ul class="menu-list">
+		<li class="menu-item"><a class="menu-item-link" href="www.yahoo.com">Homepage</a></li>
+		<li class="menu-item"><a class="menu-item-link" href="www.yahoo.com">Homepage</a></li>
+		<li class="menu-item"><a class="menu-item-link" href="www.yahoo.com">Homepage</a></li>
+		<li class="menu-item"><a class="menu-item-link" href="www.yahoo.com">Homepage</a></li>
+		<li class="menu-item"><a class="menu-item-link" href="www.yahoo.com">Homepage</a></li>
+	</ul>
+</nav>
+
+<!-- content begins here -->
+
+<!--aside if not - the main content is truly dependent on the aside-->
+
+<div id="content">
+
+	<article> 
+		<h3>description of the purpose of our website </h3>
+		<p>
+			Some word llalalalallal Some word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallal
+		</p>
+	</article>
+
+	<div id="wrapper">
+		<div>
+			<h3>about the author</h3>
+			<p>
+				Some word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallal
+			</p>
+		</div>
+
+	<aside id="video-box">
+		<h3>Screencasts</h3>
+		<p>
+				Some word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallal
+			</p>
+	</aside>
+
+	<aside id = "twitter-box">
+		<h3>Tweets</h3>
+		<p>
+				Some word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallalSome word llalalalallal
+			</p>
+	</aside>
+
+	</div>
+
+
+</div>
+
+<!-- footer begins here -->
+
+<footer id="main-footer">
+         <p>
+            Author's name. All rights reserved. Copyright &copy; 2012 - 2013.
+         </p>
+         <div class="social-bar">
+            <a href="./facebook" title="Facebook">
+               <img src="./images/icons/facebook.png" alt="Facebook icon" />
+            </a>
+            <a href="./twitter" title="Twitter">
+               <img src="./images/icons/twitter.png" alt="Twitter icon" />
+            </a>
+            <a href="./googleplus" title="Google+">
+               <img src="./images/icons/google.png" alt="Google+ icon" />
+            </a>
+            <a href="./linkedin" title="LinkedIn">
+               <img src="./images/icons/linkedin.png" alt="Linkedin icon" />
+            </a>
+         </div>
+      </footer>
+<!--footer ends here-->
+
+</body>
+
