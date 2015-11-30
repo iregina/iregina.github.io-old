@@ -1,6 +1,220 @@
+/* ------------------------------------------
+  OLD IE STYLES
+--------------------------------------------- */
+
+.js .nav-collapse {
+  position: relative;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-collapse {
+  float: right;
+  width: auto;
+}
+
+.nav-collapse li {
+  width: auto;
+}
+
+.nav-collapse a {
+  border-left: 1px solid white;
+  padding: 1.02em 2em;
+  text-align: center;
+  border-top: 0;
+  float: left;
+  width: auto;
+  margin: 0;
+}
+
+.nav-collapse .active a {
+  background: transparent;
+}
+
 /* set the chosen breakpoints in our document 
 limiting the styles defined there to the screen
 limiting the scope to viewports which are 768px 
-or less in width*/
+or less in width
 
 @media screen and (max-width: 768px)
+
+{
+
+	/* the image will render at its native dimensions 
+	as long as its width doesn’t exceed the width of 
+	its container. Resizing your browser window, the 
+	image’s proportions will remain intact, even as the 
+	page scales down accordingly.
+
+   #banner > img
+	{
+		max-width: 100%;
+	}
+
+	ul.menu-list
+   {
+      height: auto;
+      text-align: justify;
+      -ms-text-justify: distribute-all-lines;
+      text-justify: distribute-all-lines;
+   }
+
+   li.menu-item
+   {
+      margin: 0em 0.2em;
+      width: auto;
+      vertical-align: top;
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+   }
+
+   .stretch
+   {
+      width: 100%;
+      display: inline-block;
+   }
+
+   a.menu-item-link
+   {
+      font-size: 1.1em;
+   }
+
+   #wrapper
+   {
+      width: inherit;
+   }
+
+   .small-box
+   {
+      width: inherit;
+      float: none;
+   }
+
+   #wrapper
+   {
+      float: none;
+   }
+
+   .social-bar a
+   {
+      margin-right: 0em;
+   }
+
+   #newsletter-form
+   {
+      font-size: 1em;
+   }
+
+   input#newsletter-email
+   {
+      width: 10em;
+      -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      -ms-transition: none;
+      transition: none;
+   }
+
+   #team-logo-bar a
+   {
+      text-decoration: none;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+   }
+}
+
+
+@media screen and (max-width: 480px)
+{
+   body
+   {
+      font-family: Calibri,Arial,Helvetica,sans-serif;
+   }
+
+   #banner
+   {
+      background-image:;
+   }
+
+   .menu
+   {
+      display: none;
+   }
+
+   #wrapper
+   {
+      width: inherit;
+   }
+
+   a.menu-item-link
+   {
+      font-family: Arial,Helvetica,sans-serif;
+   }
+
+   #menu-select
+   {
+      display: block;
+      margin: 0.5em auto;
+      width: 90%;
+      font-size: 1em;
+   }
+
+   #newsletter-box
+   {
+      display: none;
+   }
+
+   #mobile-newsletter-box
+   {
+      display: block;
+   }
+
+   #mobile-newsletter-box *
+   {
+      width: 90%;
+      margin: 0em auto 0.5em auto;
+   }
+
+   #mobile-newsletter-box > form > *
+   {
+      display: block;
+   }
+
+   input#mobile-newsletter-email
+   {
+      font-size: 1em;
+   }
+
+   #mobile-newsletter-box p
+   {
+      padding: 0;
+      text-align: center;
+   }
+
+   #mobile-newsletter-box a
+   {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #FFFFFF;
+   }
+
+   .long-box,
+   .small-box,
+   #banner
+   {
+      box-shadow: none;
+   }
+
+   #team-logo-bar
+   {
+      text-decoration: none;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+   }
+
+} */
