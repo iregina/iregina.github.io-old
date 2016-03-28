@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
-@import "http://fonts.googleapis.com/css?family=Raleway:400,700";
+/*@import url(font-awesome.min.css);*/
 
 /*
 	Spatial by TEMPLATED
@@ -11,8 +10,11 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background-color: white;
+		font-family: 'Roboto', sans-serif;
 	}
+
+
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -29,7 +31,6 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 2em;
@@ -935,7 +936,7 @@
 		z-index: 10000;
 	}
 
-		#header h1 {
+/*		#header h1 {
 			color: #484848;
 			font-weight: 400;
 			height: inherit;
@@ -945,13 +946,14 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-		}
+		}*/
 
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
-			right: 1.25em;
+			text-align: center;
+			/*position: absolute;*/
+			/*right: 1.25em;*/
 			top: 0;
 			vertical-align: middle;
 		}
@@ -966,8 +968,15 @@
 					border-radius: 4px;
 					display: inline-block;
 					margin-left: 2.5em;
-					padding-left: 0;
+					padding-left: 3em;
+					font-weight: 300;
 				}
+
+					#header nav > ul > li img {
+						vertical-align: -6px;
+						display: inline-block;
+
+					}
 
 					#header nav > ul > li a {
 						-moz-transition: color 0.2s ease-in-out;
@@ -981,7 +990,7 @@
 					}
 
 						#header nav > ul > li a:hover {
-							color: #484848;
+							color: #c8cfd6;
 						}
 
 					#header nav > ul > li:first-child {
@@ -1005,11 +1014,11 @@
 		}
 
 			#header .container h1 {
-				left: 0;
+				/*left: 0;*/
 			}
 
 			#header .container nav {
-				right: 0;
+				/*right: 0;*/
 			}
 
 		#header.alt {
@@ -1021,27 +1030,28 @@
 			position: absolute;
 		}
 
-			#header.alt h1 {
-				color: #ffffff;
+/*			#header.alt h1 {
+				color: black;
 				left: 2.5em;
 				top: 2em;
 			}
 
 				#header.alt h1 a {
-					color: #ffffff;
-				}
+					color: black;
+				}*/
 
 			#header.alt nav {
 				right: 2em;
 				top: 2em;
+				font-size: 16px;
 			}
-
+			/* This changes the link color */
 				#header.alt nav a {
-					color: #ddd;
+					color: #778899;
 				}
-
+				/* This will change hover color */
 					#header.alt nav a:active, #header.alt nav a:hover {
-						color: #ffffff;
+						color: #c8cfd6;
 					}
 
 			#header.alt .button {
@@ -1054,7 +1064,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("css/images/overlay.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -1102,7 +1112,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../images/banner.jpg");
+			background-image: url("css/images/overlay.png"), url("../images/banner.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -1113,7 +1123,9 @@
 
 				.wrapper.style3 header.major h2 {
 					color: #ffffff;
+					font-weight: 400;
 				}
+
 
 	body.is-touch .wrapper.style3 {
 		background-attachment: scroll;
