@@ -4,15 +4,17 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+/* NAVBAR */
 
-/* TEMPLATE STYLING */
 
-/* navbar color */
+/* change navbar logo position */
 .logo {
 	margin-top: 10px;
 	padding-left: 0px;
 	padding-right: 20px;
 }
+
+/* change navbar color */
 .container {
 	background: white;
 	border: 0;
@@ -29,15 +31,16 @@ body.slide-active {
     margin-top: 0px!important
 }
 /*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
-#page-content {
+/*#page-content {
     position: relative;
     padding-top: 70px;
     left: 0;
 }
 #page-content.slide-active {
     padding-top: 0
-}
+}*/
 
+/* Change color of navbar */
 .navbar-inverse {
 	border-color: white!important;
 	background-color: white!important;
@@ -49,19 +52,22 @@ body.slide-active {
     background-color: white!important;
 }
 
-
+/* Navbar links not being clicked */
 .navbar-inverse .navbar-nav a {
 	color: #778899!important;
 }
 
+/* Navbar links when hovered over */
 .navbar-inverse a:hover {
 	color: #adb7c1!important;
 }
 
+/* Navbar links if they are clicked on */
 .navbar-inverse a:active {
 	color: #adb7c1!important;
 }
 
+/* Navbar links if they are opened */
 .navbar-inverse .navbar-nav>.open>a:focus, 
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a{
@@ -86,6 +92,7 @@ body.slide-active {
     padding: 10px 0 0 0;
     border: 0;
 }
+/* Styling of thet three icon bars button */
 /* icon bar prettyup - optional */
 #slide-nav .navbar-toggle > .icon-bar {
     width: 100%;
@@ -96,11 +103,12 @@ body.slide-active {
 }
 
 
-
+/* The background color of the three icon bars button */
 #slide-nav .navbar-toggle:hover {
 	background-color: white;
 }
 
+/* The color when you hover over the icon bars individually */
 #slide-nav .navbar-toggle > .icon-bar:hover {
     background-color: #9fabb7;
 }
@@ -126,197 +134,4 @@ body.slide-active {
 
 
 
-/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
-@media (max-width:767px) { 
-	#slide-nav .container {
-	  margin: 0!important;
-	  padding: 0!important;
-      height:100%;
 
-	}
-
-
-	.skills .col-sm-4 {
-		padding-top: 10px;
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	#skillbar {
-		margin-top: 30px;
-	}
-
-	.skills p {
-	font-size: 15px;
-	text-align: center;
-	color: #3b444c;
-	font-weight: 300;
-	margin-top: 10px;
-}
-
-.center-block {
-		display: table;
-        margin: 15px auto;
-        height: 60px;
-        width: 80px;
-	}
-
-
-	#slide-nav .navbar-header {
-	    margin: 10px auto;
-	    padding: 0 15px;
-
-	}
-	#slide-nav .navbar.slide-active {
-	    position: absolute;
-	    width: 80%;
-	    top: -1px;
-	    z-index: 1000;
-	}
-	#slide-nav #slidemenu {
-	    background: #f7f7f7;
-	    left: -100%;
-	    width: 80%;
-	    min-width: 0;
-	    position: absolute;
-	    padding-left: 0;
-	    z-index: 2;
-	    top: -8px;
-	    margin: 0;
-	}
-	#slide-nav #slidemenu .navbar-nav {
-	    min-width: 0;
-	    width: 100%;
-	    margin: 0;
-	}
-	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
-	    min-width: 0;
-	    width: 80%;
-	    white-space: normal;
-	}
-	#slide-nav {
-	    border-top: 0
-	}
-	#slide-nav.navbar-inverse #slidemenu {
-	    background: #333
-	}
-
-	/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
-	/*change width of the side menu bar*/
-	#navbar-height-col {
-	    position: fixed;
-	    top: 0;
-	    height: 100%;
-      	bottom:0;
-	    width: 80%;
-	    left: -80%;
-	    font-size: 24px;
-	    background: none;
-	}
-	#navbar-height-col.inverse {
-	    background: #333;
-	    z-index: 1;
-	}
-	#slide-nav .navbar-form {
-	    width: 100%;
-	    margin: 8px 0;
-	    text-align: center;
-	    overflow: hidden;
-	    /*fast clearfixer*/
-	}
-	#slide-nav .navbar-form .form-control {
-	    text-align: center
-	}
-	#slide-nav .navbar-form .btn {
-	    width: 100%
-	}
-
-
-
-
-	.banner {
-	margin-top: 90px;
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
-	.banner h1 {
-		font-size: 27px;
-		text-align: center;
-	}
-
-	.skills h3 {
-		margin-top: -10px;
-		margin-bottom: -10px;
-		font-size: 13px;
-		font-weight: 300;
-		text-align: center;
-	}
-
-}
-@media (min-width:768px) { 
-
-	#page-content {
-	    left: 0!important
-	}
-	.navbar.navbar-fixed-top.slide-active {
-	    position: fixed
-	}
-
-	.banner {
-	margin-top: 150px;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-	.banner h1 {
-		font-size: 5em;
-		text-align: center;
-		font-weight: 300;
-		line-height: 120%;
-	}
-
-
-	.skills .col-sm-4 {
-		padding-top: 20px;
-		padding-left: 4%;
-		padding-right: 4%;
-	}
-
-	.skills p {
-	font-size: 1.3em;
-	margin-top: 30px;
-	margin-right: 5px;
-	margin-left: 5px;
-	text-align: center;
-	color: #3b444c;
-	font-weight: 300;
-	line-height: 150%;
-}
-
-#skillbar{
-	margin-top: 90px;
-	margin-bottom: 50px;
-}
-
-#skillbody{
-	margin-left: 10%;
-	margin-right: 10%
-}
-
-.center-block {
-		display: table;
-        margin: 0 auto;
-        height: 100px;
-        width: 160px;
-	}
-
-	.skills h3 {
-		margin-top: -5px;
-		margin-bottom: -5px;
-		font-size: 20px;
-		font-weight: 300;
-		text-align: center;
-	}
-
-}

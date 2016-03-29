@@ -1,0 +1,136 @@
+@media (max-width:767px) { 
+	#slide-nav .container {
+	  margin: 0!important;
+	  padding: 0!important;
+      height:100%;
+	}
+
+	#slide-nav .navbar-header {
+	    margin: 10px auto;
+	    padding: 0 15px;
+
+	}
+
+	#slide-nav .navbar.slide-active {
+	    position: absolute;
+	    width: 80%;
+	    top: -1px;
+	    z-index: 1000;
+	}
+	#slide-nav #slidemenu {
+	    background: #f7f7f7;
+	    left: -100%;
+	    width: 80%;
+	    min-width: 0;
+	    position: absolute;
+	    padding-left: 0;
+	    z-index: 2;
+	    top: -8px;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav {
+	    min-width: 0;
+	    width: 100%;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
+	    min-width: 0;
+	    width: 80%;
+	    white-space: normal;
+	}
+	#slide-nav {
+	    border-top: 0
+	}
+	#slide-nav.navbar-inverse #slidemenu {
+	    background: #333
+	}
+
+	/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+	/*change width of the side menu bar*/
+	#navbar-height-col {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+      	bottom:0;
+	    width: 80%;
+	    left: -80%;
+	    font-size: 24px;
+	    background: none;
+	}
+	#navbar-height-col.inverse {
+	    background: #333;
+	    z-index: 1;
+	}
+	#slide-nav .navbar-form {
+	    width: 100%;
+	    margin: 8px 0;
+	    text-align: center;
+	    overflow: hidden;
+	    /*fast clearfixer*/
+	}
+	#slide-nav .navbar-form .form-control {
+	    text-align: center
+	}
+	#slide-nav .navbar-form .btn {
+	    width: 100%
+	}
+
+
+
+/* ~~~~~~~~~~~~~~~~~ BANNER SECTION ~~~~~~~~~~~~~~~~~ */
+
+	.banner {
+	margin-top: 90px;
+	margin-left: 20%;
+	margin-right: 20%;
+	}
+
+	.banner h1 {
+		font-size: 27px;
+		text-align: center;
+	}
+
+/* ~~~~~~~~~~~~~~~~~ SKILLS SECTION ~~~~~~~~~~~~~~~~~ */
+	
+	/* styling for the three columns */
+
+	.skills .col-sm-4 {
+		padding-top: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	/* styling for all text and subheaders */
+
+	.skills p {
+	font-size: 15px;
+	text-align: center;
+	color: #3b444c;
+	font-weight: 300;
+	margin-top: 10px;
+	}
+
+	/* styling for the icons/images */
+
+	.center-block {
+		display: table;
+        margin: 15px auto;
+        height: 60px;
+        width: 80px;
+	}
+
+	/* styling for the "my skills are:" header */
+
+	#skillbar {
+		margin-top: 30px;
+	}
+
+	.skills h3 {
+		margin-top: -10px;
+		margin-bottom: -10px;
+		font-size: 13px;
+		font-weight: 300;
+		text-align: center;
+	}
+
+}
