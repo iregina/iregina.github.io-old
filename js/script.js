@@ -47,16 +47,20 @@ $(document).ready(function () {
     });
 
 
+
     var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
 
 
     $(window).on("resize", function () {
-
+        // if the screen size is larger than 767 
         if ($(window).width() > 767 && $('.navbar-toggle').is(':hidden')) {
             $(selected).removeClass('slide-active');
         }
 
+    });
 
+    $("selected").on("swipeleft",function(){
+        $(this).hide();
     });
 
 
