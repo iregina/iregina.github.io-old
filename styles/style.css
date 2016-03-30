@@ -1,0 +1,13 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.page-content {
+	margin: 50px 10% 0 10%;
+}
+
+.banner h1 {
+	font-weight: 300;
+	font-size: 55px;
+	text-align: center;
+}

@@ -1,13 +1,17 @@
 @media (max-width:767px) { 
+	/* slide-nav is the entire navbar and 
+	the container is everything inside of it*/
+
 	#slide-nav .container {
 	  margin: 0!important;
 	  padding: 0!important;
       height:100%;
 	}
-
+	/* navbar-header is just the toggle button and the logo*/
 	#slide-nav .navbar-header {
 	    margin: 10px auto;
 	    padding: 0 15px;
+	   
 
 	}
 

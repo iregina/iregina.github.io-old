@@ -2,9 +2,9 @@ $(document).ready(function () {
 
 
     //stick in the fixed 100% height behind the navbar but don't wrap it
-    $('#slide-nav.navbar-inverse').after($('<div class="inverse" id="navbar-height-col"></div>'));
+    // $('#slide-nav.navbar-inverse').after($('<div class="inverse" id="navbar-height-col"></div>'));
   
-    $('#slide-nav.navbar-default').after($('<div id="navbar-height-col"></div>'));  
+    // $('#slide-nav.navbar-default').after($('<div id="navbar-height-col"></div>'));  
 
     // Enter your ids or classes
     var toggler = '.navbar-toggle';
@@ -28,35 +28,7 @@ $(document).ready(function () {
             left: selected ? slideneg : '0px'
         });
 
-        $(pagewrapper).stop().animate({
-            left: selected ? '0px' : slidewidth
-        });
-
-        $(navigationwrapper).stop().animate({
-            left: selected ? '0px' : slidewidth
-        });
-
-
-        $(this).toggleClass('slide-active', !selected);
-        $('#slidemenu').toggleClass('slide-active');
-
-
-        $('#page-content, .navbar, body, .navbar-header').toggleClass('slide-active');
-
-
-    });
-
-    $("#slide-nav").on("swipeleft", toggler, function (e) {
-
-        var selected = $(this).hasClass('slide-active');
-
-        $('#slidemenu').stop().animate({
-            left: selected ? menuneg : '0px'
-        });
-
-        $('#navbar-height-col').stop().animate({
-            left: selected ? slideneg : '0px'
-        });
+        // $('div.logo').hide()
 
         $(pagewrapper).stop().animate({
             left: selected ? '0px' : slidewidth
@@ -75,7 +47,6 @@ $(document).ready(function () {
 
 
     });
-
 
 
     var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
