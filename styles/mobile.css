@@ -1,7 +1,7 @@
 @media (max-width:767px) { 
 	.page-content h1 {
 		font-weight: 300;
-		font-size: 35px;
+		font-size: 25px;
 		margin-bottom: 30px;
 	}
 
@@ -49,4 +49,10 @@
 	width: 230px;
 	margin: 12px;
 	}
+
+	#container p {
+   text-align: left;
+   font-size: 14px;
+   line-height: 140%;
+}
 }
