@@ -1,0 +1,29 @@
+@media (min-width:992px) { 
+
+	.banner h1 {
+		font-weight: 300;
+		font-size: 68px;
+		line-height: 130%;
+		text-align: center;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) { 
+
+	.banner h1 {
+		font-weight: 300;
+		font-size: 50px;
+		line-height: 130%;
+		text-align: center;
+	}
+}
+
+@media (min-width:488px) and (max-width:767px) { 
+
+	.banner h1 {
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 130%;
+		text-align: center;
+	}
+}
