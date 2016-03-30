@@ -1,4 +1,9 @@
 @media (max-width:767px) { 
+	.page-content h1 {
+		font-weight: 300;
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
 
 	.banner h1 {
 		font-weight: 300;
@@ -34,5 +39,10 @@
 	.col-sm-4 p {
 	line-height: 140%;
 	font-size: 14px;
+	}
+
+	#floated img { 
+	width: 250px;
+	margin: 18px;
 	}
 }
