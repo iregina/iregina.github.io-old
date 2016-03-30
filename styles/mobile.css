@@ -2,8 +2,21 @@
 
 	.banner h1 {
 		font-weight: 300;
-		font-size: 22px;
+		font-size: 25px;
 		line-height: 140%;
 		text-align: center;
+		color: #3f3f3f;
+		letter-spacing: 1px;
+		padding-bottom: 20px;
+	}
+
+	#skills-include-bar h3 {
+	color: #696969;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	letter-spacing: 2px;
 	}
 }
