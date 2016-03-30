@@ -19,4 +19,20 @@
 	margin-bottom: -10px;
 	letter-spacing: 2px;
 	}
+
+	.skills-image {
+		padding-top: 10px;
+		padding-bottom: 25px;
+		width: 100px;
+	}
+
+	.col-sm-4 h4 {
+	line-height: 140%;
+	font-size: 16px;
+	}
+
+	.col-sm-4 p {
+	line-height: 140%;
+	font-size: 14px;
+	}
 }

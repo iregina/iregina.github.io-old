@@ -20,6 +20,12 @@
 	letter-spacing: 2px;
 	}
 
+	.skills-image {
+		padding-top: 20px;
+		padding-bottom: 30px;
+		width: 150px;
+	}
+
 }
 
 @media (min-width:768px) and (max-width:991px) { 
@@ -43,6 +49,12 @@
 	margin-bottom: -10px;
 	letter-spacing: 2px;
 	}
+
+	.skills-image {
+		padding-top: 20px;
+		padding-bottom: 30px;
+		width: 100px;
+	}
 }
 
 @media (min-width:488px) and (max-width:767px) { 
@@ -65,5 +77,11 @@
 	margin-top: -10px;
 	margin-bottom: -10px;
 	letter-spacing: 2px;
+	}
+
+	.skills-image {
+		padding-top: 20px;
+		padding-bottom: 30px;
+		width: 100px;
 	}
 }
