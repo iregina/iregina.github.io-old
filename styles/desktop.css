@@ -31,7 +31,7 @@
 
 }
 
-@media (min-width:768px) and (max-width:991px) { 
+@media (min-width:769px) and (max-width:991px) { 
 
 	.banner h1 {
 		font-weight: 300;
@@ -60,7 +60,7 @@
 	}
 }
 
-@media (min-width:488px) and (max-width:767px) { 
+@media (min-width:488px) and (max-width:768px) { 
 
 	.banner h1 {
 		font-weight: 300;
@@ -88,8 +88,14 @@
 		width: 100px;
 	}
 
+	#floated {
+    	float: right;
+    	/*background-color: blue;*/
+	}
+
 	#floated img { 
-	width: 250px;
-	margin: 15px;
+	width: 350px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 }

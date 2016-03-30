@@ -41,17 +41,21 @@ body {
 /* About Me Page */
 
 #container {
-
    /* background: yellow;*/
+}
+
+
+#container p {
+   text-align: left;
 }
 #floated {
     float: right;
 /*    width: 150px;*/
-    background: red;
-    margin: 10px;x
+   /* background: red;*/
 }
 #floated img { 
-	width: 350px;
-	margin: 20px;
+	width: 500px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
