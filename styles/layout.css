@@ -61,7 +61,7 @@ body {
    /* background: red;*/
 }
 #floated img { 
-	width: 500px;
+	width: 300px;
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
@@ -73,3 +73,12 @@ body {
 	margin: 20px;
 }
 
+/* Contact Page */
+
+#contactinfo {
+	font-weight: 300;
+}
+
+#contactinfo p {
+	line-height: 100%;
+}
