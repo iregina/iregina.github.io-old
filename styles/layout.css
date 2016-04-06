@@ -46,6 +46,8 @@ body {
 	opacity: 0.75;
 }
 
+/* Skill Section */
+
 .col-sm-4 {
 	text-align: center;
 	color: #3f3f3f;
@@ -54,11 +56,13 @@ body {
 .col-sm-4 h4 {
 	line-height: 140%;
 	font-size: 18px;
+	letter-spacing: 1px;
 }
 .col-sm-4 p {
 	line-height: 140%;
 	font-size: 16px;
 	padding-bottom: 20px;
+	font-weight: 300;
 }
 
 /* About Me Page */
