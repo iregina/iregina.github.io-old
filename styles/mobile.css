@@ -1,4 +1,11 @@
 @media (max-width:767px) { 
+	.navbar-brand img {
+	margin-left: 2%;
+	padding-top: 0px;
+	position:absolute;
+}
+
+
 	.page-content h1 {
 		font-weight: 300;
 		font-size: 25px;
