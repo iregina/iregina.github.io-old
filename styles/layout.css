@@ -2,14 +2,25 @@ body {
 	font-family: 'Nunito', sans-serif;
 }
 
+/* navbar styling */
 .navbar-brand img {
-	padding-left: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.nav {
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+.nav li {
+	margin-right: 15px;
+	font-weight: 300;
+	font-size: 16px;
 }
 .page-content {
-	margin: 50px 0% 0 0%;
+	margin: 50px 10% 0 10%;
 }
-
-
 
 .page-content h1 {
 	font-weight: 300;
@@ -20,19 +31,19 @@ body {
 	text-align: center;
 }
 
-.link-option{
-	margin-top: 6px;
-}
 
 
 .navbar-default {
 	border-color: white!important;
 	background-color: white!important;
-	
 }
 
 .navbar-brand {
 	float:none;!important;
+}
+
+.navbar-brand img:hover{
+	opacity: 0.75;
 }
 
 .col-sm-4 {
@@ -48,13 +59,6 @@ body {
 	line-height: 140%;
 	font-size: 16px;
 	padding-bottom: 20px;
-}
-
-/* 3-Column Skills Section */
-
-#skillbody{
-	padding-left: 8%;
-	padding-right: 8%;
 }
 
 /* About Me Page */
