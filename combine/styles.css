@@ -1,8 +1,0 @@
-@media all and (min-width: 800px) and (max-width: 1024px) {...}
-
-@media all and (max-width: 420px) {
-  section, aside {
-    float: none;
-    width: auto;
-  }
-}
